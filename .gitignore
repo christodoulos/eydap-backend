@@ -1,0 +1,35 @@
+.env
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyCharm / IntelliJ IDEA related
+.idea/
+
+# VS Code related
+.vscode/
+
+# Flask related
+instance/
+.webassets-cache
+
+# Virtual environment
+venv/
