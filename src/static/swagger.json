@@ -1,0 +1,18 @@
+{
+	"openapi": "3.0.3",
+
+	"info": {
+		"title": "EYDAP API",
+		"description": "This API is the backend for the Attica Digital Twins project. It provides data to the frontend applications as well as to any interested third party.",
+		"version": "1.0.0",
+		"contact": {
+			"name": "Attica Digital Twins",
+			"url": "https://atticadt.uwmh.eu",
+			"email": "dt@atticadt.uwmh.eu"
+		},
+		"license": {
+			"name": "AGPL",
+			"url": "https://www.gnu.org/licenses/agpl-3.0.en.html"
+		}
+	}
+}
