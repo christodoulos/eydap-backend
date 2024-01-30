@@ -1,9 +1,12 @@
 import sys
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import time
 import os
 from uuid import uuid1
+
+matplotlib.use("Agg")
 
 
 def create_random_chart(base_folder, num1, num2):
