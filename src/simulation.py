@@ -46,7 +46,7 @@ def create_random_chart(base_folder, num1, num2):
 def run(user_id, num1, num2):
     new_uuid = uuid1()
     print(f"SAVE IN DB NEW UUID: {new_uuid}")
-    base_folder = f"output/{user_id}/{new_uuid}"
+    base_folder = f"$HOME/output/{user_id}/{new_uuid}"
     os.makedirs(base_folder, exist_ok=True)
     time.sleep(5)
     create_random_chart(base_folder, num1, num2)

@@ -15,7 +15,7 @@ def execute():
 	current_user = get_jwt_identity()
 	claims = get_jwt()
 
-	if not claims["isEnabled"]: return Response(response=json.dumps({"error": "User is not authorized to access this page"}), status=401)
+	# if not claims["isEnabled"]: return Response(response=json.dumps({"error": "User is not authorized to access this page"}), status=401)
 
 	print(f"Current user: {current_user}, claims: {claims}")
 
